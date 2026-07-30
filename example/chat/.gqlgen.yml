@@ -1,3 +1,0 @@
-models:
-  Chatroom:
-    model: github.com/dgraph-io/gqlgen/example/chat.Chatroom

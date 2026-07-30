@@ -1,5 +1,0 @@
-models:
-  Order:
-    model: github.com/dgraph-io/gqlgen/example/dataloader.Order
-  Customer:
-    model: github.com/dgraph-io/gqlgen/example/dataloader.Customer

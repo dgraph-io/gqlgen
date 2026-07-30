@@ -11,7 +11,6 @@ jobs:
       - run: go mod download
       - run: .github/workflows/check-fmt
       - run: .github/workflows/check-linting
-      - run: .github/workflows/check-generate
 
   coverage:
     runs-on: ubuntu-latest

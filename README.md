@@ -1,5 +1,12 @@
 # gqlgen [![Continuous Integration](https://github.com/dgraph-io/gqlgen/workflows/Continuous%20Integration/badge.svg)](https://github.com/dgraph-io/gqlgen/actions) [![Read the Docs](https://badgen.net/badge/docs/available/green)](http://gqlgen.com/) [![GoDoc](https://godoc.org/github.com/dgraph-io/gqlgen?status.svg)](https://godoc.org/github.com/dgraph-io/gqlgen)
 
+> **Scope note (v0.14.0).** This fork carries only the runtime `graphql` packages that Dgraph imports:
+> `graphql`, `graphql/errcode`, `graphql/introspection`, and `graphql/playground`. The codegen toolchain
+> (`api`, `client`, `cmd`, `codegen`, `complexity`, `plugin`), the examples, and the integration suite were
+> removed to shrink the transitive dependency surface. Sections below that describe codegen, `gqlgen init`,
+> and the examples no longer apply here; use [99designs/gqlgen](https://github.com/99designs/gqlgen) for
+> those. `v0.13.2` is the last release carrying the full toolchain.
+
 ![gqlgen](https://user-images.githubusercontent.com/46195831/89802919-0bb8ef00-db2a-11ea-8ba4-88e7a58b2fd2.png)
 
 ## What is gqlgen?
