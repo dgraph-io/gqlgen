@@ -1,4 +1,7 @@
-//go:generate go run github.com/matryer/moq -out executable_schema_mock.go . ExecutableSchema
+// Regenerate executable_schema_mock.go with a locally installed moq
+// (go install github.com/matryer/moq@latest), then:
+//   moq -out executable_schema_mock.go . ExecutableSchema
+// moq is deliberately not a module dependency — see README.
 
 package graphql
 
